@@ -14,6 +14,6 @@ public class TestController {
 
     @GetMapping("/message")
     public String getMessage() {
-        return "Second message from AWS Ecs";
+        return "another new message from AWS Ecs";
     }
 }
